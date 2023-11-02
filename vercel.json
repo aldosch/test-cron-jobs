@@ -1,7 +1,11 @@
 {
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "cleanUrls": true,
   "crons": [
     {
-      "path": "/api/cron",
+      "path": "src/app/api/cron",
       "schedule": "*/5 * * * *"
     }
   ]
