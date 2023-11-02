@@ -5,7 +5,7 @@
   "cleanUrls": true,
   "crons": [
     {
-      "path": "src/app/api/cron",
+      "path": "/src/app/api/cron",
       "schedule": "*/5 * * * *"
     }
   ]
